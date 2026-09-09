@@ -1,0 +1,60 @@
+# ============================================================
+# ROS 2 / colcon build artefacts  --  NEVER commit these
+# ============================================================
+build/
+install/
+log/
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# Third-party packages cloned during setup (see README > Installation)
+ros2_ws/src/ros2_wheeltec_n100_imu/
+ros2_ws/src/serial-ros2/
+
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+.eggs/
+dist/
+
+# ============================================================
+# ML: weights, datasets, run outputs
+# ============================================================
+*.pt
+*.onnx
+*.engine
+*.tflite
+runs/
+runs_wheat/
+wandb/
+datasets/
+dataset/
+*.cache
+
+# ============================================================
+# Rover run outputs
+# ============================================================
+recordings/
+*.avi
+*.mp4
+rosbag2_*/
+*.db3
+
+# ============================================================
+# Editors / OS
+# ============================================================
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db

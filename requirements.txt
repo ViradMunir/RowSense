@@ -1,0 +1,19 @@
+# ============================================================
+# RowSense Python dependencies
+# ============================================================
+# ROS 2 packages (rclpy, sensor_msgs, geometry_msgs, std_msgs) come from
+# the ROS 2 Jazzy apt installation, NOT from pip. Do not pip-install them.
+# ============================================================
+
+# ---- Raspberry Pi 5 (rover / autonomy stack) ----
+numpy>=1.26
+opencv-python>=4.9
+pyserial>=3.5
+
+# ---- Training workstation (CUDA) ----
+# Install PyTorch first, matching your CUDA version, from pytorch.org:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+ultralytics>=8.3.0
+
+# NOTE: Ultralytics is AGPL-3.0 licensed. Review its terms before any
+# commercial use of models trained with it.
