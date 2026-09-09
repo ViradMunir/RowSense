@@ -10,6 +10,8 @@ Senior Year Project (Session 2025–2026), Department of Electrical Engineering,
 ![RowSense rover](docs/images/rover_final.jpg)
 *Fig. 1 — The RowSense rover (final build).*
 
+> **If the figures below don't render,** every one of them also appears in the full project report at [`docs/SPROJ_Report.pdf`](docs/SPROJ_Report.pdf) — figure numbers are noted in each caption. GitHub serves README images from `raw.githubusercontent.com`, which some networks block or filter; the report PDF is served from `github.com` and is unaffected.
+
 ---
 
 ## Table of Contents
