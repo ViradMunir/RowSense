@@ -4,10 +4,6 @@ RowSense — YOLOv26 training entry point.
 Trains the under-canopy wheat detector (wheat heads, tillers, leaf stripe
 rust) on the augmented Roboflow dataset.
 
-Hyperparameters below match Table 6 of the project report, which
-documents the run that produced the reported results:
-mAP@0.5 = 0.817; stripe rust 97.3 P / 97.3 R, wheat heads 81.8 P /
-77.3 R, tillers 60.8 P / 70.2 R.
 """
 
 from ultralytics import YOLO
