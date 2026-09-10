@@ -1,0 +1,22 @@
+# RowSense — under-canopy wheat dataset configuration
+#
+# Dataset is NOT included in this repository (8,265 augmented images).
+# Point the paths below at your local copy of the Roboflow export, then
+# run `python train.py`.
+#
+# Expected layout:
+#   wheat_dataset/
+#   ├── train/{images,labels}/
+#   ├── valid/{images,labels}/
+#   └── test/{images,labels}/
+
+path: ../wheat_dataset      # dataset root (relative to this file, or absolute)
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 3
+names:
+  0: head
+  1: tillers
+  2: Wheat Stripe Rust
