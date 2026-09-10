@@ -151,7 +151,7 @@ RowSense/
 │
 ├── navigation/                     # Runs on the Raspberry Pi 5
 │   ├── nav.py                      # Main autonomy node (heading hold + avoidance + row-end turn)
-│   └── auto_manual_mode_switch.py  # Pi ↔ ESP32 serial bridge + AUTO/MANUAL console
+│   └── mode_switch.py  # Pi ↔ ESP32 serial bridge + AUTO/MANUAL console
 │
 ├── perception/                     # Runs on a CUDA workstation
 │   ├── train.py                    # YOLO training entry point
@@ -163,7 +163,8 @@ RowSense/
 │       └── wheeltec_n100_imu_py/   # Our Python FDILink driver for the N100 IMU
 │
 ├── firmware/
-│   └── esp32_s3/                   # Arduino sketch: UART → PWM + BLE manual control
+│   └── esp32_s3/
+        └── esp32_s3_bridge.ino     # ESP32 S3 Bridge: UART → PWM + BLE manual control
 │
 └── docs/
     ├── SPROJ_Report.pdf            # Full project report
